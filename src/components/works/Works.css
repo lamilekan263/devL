@@ -1,0 +1,12 @@
+.works h1{
+    text-align: center;
+}
+
+@media(min-width:760px){
+    .works h1{
+        font-size: 7.5rem;
+    color: white;
+    
+    line-height: 1.1;
+}
+}

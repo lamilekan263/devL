@@ -1,0 +1,17 @@
+.contactPage h1{
+    font-size: 4rem;
+    color: white;
+    font-weight:700;
+    line-height: 1;
+    
+}
+
+@media(min-width:760px){
+    .contactPage h1{
+        
+    color: white;
+    font-weight:700;
+    line-height: 1;
+    font-size:120px;
+}
+}
