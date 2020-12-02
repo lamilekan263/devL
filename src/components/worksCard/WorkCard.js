@@ -23,10 +23,13 @@ const WorkCard = () => {
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repellendus deserunt rem quo, magnam recusandae dolor minima odit iusto ipsum sapiente illo dolorem consequatur earum nobis magni voluptates accusantium! Hic?
                 </p>
                         </div>
-                        <hr />
+                        <div className="line my-3"></div>
+                        <div>
+                            React, firebase, MongoDb
+                        </div>
               <div className="my-3">
-                <Icon.ExternalLink className="mr-3" />
-                <Icon.GitHub className="mr-3" />
+                <Icon.ExternalLink className="iconStyle mr-3" />
+                <Icon.GitHub className="iconStyle mr-3" />
               </div>
             </div>
           </div>
