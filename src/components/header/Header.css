@@ -3,6 +3,7 @@
     top:0;
     padding-top:20px;
     z-index:99;
+    mix-blend-mode: difference;
 }
 .header__contents{
     display: flex;
