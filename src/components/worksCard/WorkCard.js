@@ -20,9 +20,7 @@ const WorkCard = () => {
               </h3>
               <div className="workCard__details -ml-5">
                 <p>
-                  Cheaplii store is a market for store owner and lets them
-                  foster and manage their sales and inventories. Currently in
-                  build.
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repellendus deserunt rem quo, magnam recusandae dolor minima odit iusto ipsum sapiente illo dolorem consequatur earum nobis magni voluptates accusantium! Hic?
                 </p>
                         </div>
                         <hr />
