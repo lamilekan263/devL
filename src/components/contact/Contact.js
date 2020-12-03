@@ -22,7 +22,7 @@ const Contact = () => {
             <br />
           </h1>
           <a href="mailto:lamilekan263@gmail.com">
-            <button className="mt-5 d-flex">
+            <button className="my-5 d-flex">
               {" "}
               Let's Talk
               <img
