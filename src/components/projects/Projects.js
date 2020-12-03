@@ -52,10 +52,22 @@ const Works = () => {
                     earum nobis magni voluptates accusantium! Hic?
                   </p>
                   <div className="line my-3 my-md-2"></div>
-                  <div>React, firebase, MongoDb</div>
+                  <div>React, Google Custom API</div>
                   <div className="my-3">
-                    <Icon.ExternalLink className="iconStyle mr-3" />
-                    <Icon.GitHub className="iconStyle mr-3" />
+                    <a
+                      href="https://google-clone-tau.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Icon.ExternalLink className="iconStyle mr-3" />
+                    </a>
+                    <a
+                      href="https://netflix-clone-puce.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Icon.GitHub className="iconStyle mr-3" />
+                    </a>
                   </div>
                 </div>
               </div>
@@ -85,10 +97,22 @@ const Works = () => {
                     earum nobis magni voluptates accusantium! Hic?
                   </p>
                   <div className="line my-3 my-md-2"></div>
-                  <div>React, firebase, MongoDb</div>
+                  <div>React, Rest API, TailwinCss</div>
                   <div className="my-3">
-                    <Icon.ExternalLink className="iconStyle mr-3" />
-                    <Icon.GitHub className="iconStyle mr-3" />
+                    <a
+                      href="https://countries-theta.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Icon.ExternalLink className="iconStyle mr-3" />
+                    </a>
+                    <a
+                      href="https://netflix-clone-puce.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Icon.GitHub className="iconStyle mr-3" />
+                    </a>
                   </div>
                 </div>
               </div>
@@ -118,10 +142,22 @@ const Works = () => {
                     earum nobis magni voluptates accusantium! Hic?
                   </p>
                   <div className="line my-3 my-md-2"></div>
-                  <div>React, firebase, MongoDb</div>
+                  <div>React, Rest API, Semantic UI </div>
                   <div className="my-3">
-                    <Icon.ExternalLink className="iconStyle mr-3" />
-                    <Icon.GitHub className="iconStyle mr-3" />
+                    <a
+                      href="https://my-youtube-clone.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Icon.ExternalLink className="iconStyle mr-3" />
+                    </a>
+                    <a
+                      href="https://netflix-clone-puce.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Icon.GitHub className="iconStyle mr-3" />
+                    </a>
                   </div>
                 </div>
               </div>
@@ -151,17 +187,29 @@ const Works = () => {
                     earum nobis magni voluptates accusantium! Hic?
                   </p>
                   <div className="line my-3 my-md-2"></div>
-                  <div>React, firebase, MongoDb</div>
+                  <div>React, GNews API, Chakra UI</div>
                   <div className="my-3">
-                    <Icon.ExternalLink className="iconStyle mr-3" />
-                    <Icon.GitHub className="iconStyle mr-3" />
+                    <a
+                      href="https://news-app-tau.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Icon.ExternalLink className="iconStyle mr-3" />
+                    </a>
+                    <a
+                      href="https://netflix-clone-puce.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Icon.GitHub className="iconStyle mr-3" />
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           {/* ends here */}
-            <div
+          <div
             className="d-flex flex-column flex-md-row mr-auto max-fit projectCard  "
             data-aos="fade-right"
           >
@@ -184,10 +232,22 @@ const Works = () => {
                     earum nobis magni voluptates accusantium! Hic?
                   </p>
                   <div className="line my-3 my-md-2"></div>
-                  <div>React, firebase, MongoDb</div>
+                  <div>React. RestAPI</div>
                   <div className="my-3">
-                    <Icon.ExternalLink className="iconStyle mr-3" />
-                    <Icon.GitHub className="iconStyle mr-3" />
+                    <a
+                      href="https://netflix-clone-puce.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Icon.ExternalLink className="iconStyle mr-3" />
+                    </a>
+                    <a
+                      href="https://netflix-clone-puce.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Icon.GitHub className="iconStyle mr-3" />
+                    </a>
                   </div>
                 </div>
               </div>
