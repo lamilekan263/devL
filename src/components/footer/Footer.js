@@ -7,13 +7,13 @@ const Footer = () => {
           <div className="footer__data d-flex flex-sm-column justify-content-between">
             <div>© Olalekan Ibrahim 2020</div>
             <div className="links">
-              <a href="" className="mr-1">
+              <a href="https://github.com/lamilekan263" className="mr-1">
                 Github
               </a>
-              <a href="" className="mr-1">
+              <a href="https://twitter.com/_horla_braheem" className="mr-1">
                 Twitter
               </a>
-              <a href="" className="mr-1">
+              <a href="https://linkedin.com/in/jimoh-ibrahim" className="mr-1">
                 LinkedIn
               </a>
             </div>
