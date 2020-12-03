@@ -20,18 +20,18 @@ const Contact = () => {
             <br />
             <span>Project?</span>
             <br />
-            <a href="mailto:lamilekan263@gmail.com">
-              <button className="mt-5">
-                {" "}
-                Let's Talk
-                <img
-                  className="ml-1 arrow"
-                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzYiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCA3NiAzMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMTVIMzMiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMiIvPgo8cGF0aCBkPSJNNjYuMDEyNSAxMy43NUg1MVYxNi4yNUg2Ni4wMTI1VjIwTDcxIDE1TDY2LjAxMjUgMTBWMTMuNzVaIiBmaWxsPSJibGFjayIvPgo8Y2lyY2xlIGN4PSI0MS41IiBjeT0iMTQuNSIgcj0iMy41IiBmaWxsPSJibGFjayIvPgo8L3N2Zz4K"
-                  alt=""
-                />
-              </button>
-            </a>
           </h1>
+          <a href="mailto:lamilekan263@gmail.com">
+            <button className="mt-5 d-flex">
+              {" "}
+              Let's Talk
+              <img
+                className="ml-1 arrow"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzYiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCA3NiAzMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMTVIMzMiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMiIvPgo8cGF0aCBkPSJNNjYuMDEyNSAxMy43NUg1MVYxNi4yNUg2Ni4wMTI1VjIwTDcxIDE1TDY2LjAxMjUgMTBWMTMuNzVaIiBmaWxsPSJibGFjayIvPgo8Y2lyY2xlIGN4PSI0MS41IiBjeT0iMTQuNSIgcj0iMy41IiBmaWxsPSJibGFjayIvPgo8L3N2Zz4K"
+                alt=""
+              />
+            </button>
+          </a>
         </div>
         <div></div>
       </div>
