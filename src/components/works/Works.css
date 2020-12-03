@@ -8,5 +8,48 @@
     color: white;
     
     line-height: 1.1;
+    
 }
+.projectCard .image{
+     width: 30rem;
+    height: 20rem;
+    border-radius: 10px;
+}
+}
+
+
+
+.projectCard{
+    width:100%;
+}
+.projectCard .image{
+    width:100%;
+}
+
+    .project-details{
+    position: relative;
+    top: 3rem;
+    left: 5rem;
+    transform-style: preserve-3d;
+    transform: translateZ(20px);
+
+}
+
+.project__desc{
+    
+    border-radius: 10px;
+     width: 20rem;
+}
+.project__desc p {
+    background-color: rgb(34, 34, 34);
+    padding: 20px 10px;
+}
+
+.line{
+    background-color: #b2b2b2;
+    width: 100%;
+    height:1px;
+}
+.iconStyle{
+    color: #b2b2b2
 }

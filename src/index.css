@@ -19,7 +19,32 @@ body{
   font-size:50px;
 } */
 
-
+ /* ::-webkit-scrollbar-track {
+       background: transparent;
+    }
+    ::-webkit-scrollbar {
+      width: 10px;
+    } 
+@media screen and (max-width: 600px) {
+    ::-webkit-scrollbar {
+      width: 0px;
+    }
+    ::-webkit-scrollbar-track {
+      display: none;
+    }
+}
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(2,0,36);
+    background: linear-gradient(135deg, rgba(2,0,36,1) 0%, var(--light-purple) 35%, var(--bright-green) 100%);
+    border-radius: 50px;
+    height: 40px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(135deg, rgba(2,0,36,1) 0%, var(--light-purple) 35%, var(--bright-green) 100%);
+  } */
+  
 .aboutMe__container{
   max-width: 500px;
   margin-top:60px;
