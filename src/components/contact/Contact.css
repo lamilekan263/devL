@@ -5,6 +5,21 @@
     line-height: 1;
     
 }
+.contactPage button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #222020;
+    color: white;
+}
+.contactPage button:hover{
+    
+    background-color: #575555;
+   
+}
+.contactPage arrow{
+    
+    background-color: white;
+}
 
 @media(min-width:760px){
     .contactPage h1{

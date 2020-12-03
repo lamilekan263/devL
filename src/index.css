@@ -11,6 +11,7 @@ body{
   font-family: 'Rajdhani';
   background-color:#111;
   color: white;
+  max-width: 1450px;
   
 }
 /* h1{
