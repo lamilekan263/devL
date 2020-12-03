@@ -1,13 +1,23 @@
 import React, { useEffect } from 'react'
-import AOS from 'aos'
-import googleImage from "../../assets/country.jpg";
-
 import * as Icon from "react-feather";
-import './Works.css'
+import AOS from 'aos'
+
+
+
+
+
+import country from "../../assets/country.jpg";
+import google from "../../assets/google.jpg";
+import netflix from "../../assets/netflix.jpg";
+import youtube from "../../assets/youtube.jpg";
+import newstoday from "../../assets/newstoday.jpg"
+
+
+import './Projects.css'
 
 const Works = () => {
   useEffect(() => {
-    AOS.init({duration : 2000})
+    AOS.init({duration : 3000})
   }, [])
     return (
       <div className="project">
@@ -24,7 +34,7 @@ const Works = () => {
             data-aos="fade-right"
           >
             <div className=" align-self-center w-100">
-              <img src={googleImage} alt="" className="image my-4 sm-w-100" />
+              <img src={google} alt="" className="image my-4 sm-w-100" />
             </div>
             <div className=" py-md-5 project__details ">
               <div>
@@ -57,15 +67,15 @@ const Works = () => {
             data-aos="fade-left"
           >
             <div className=" align-self-center ">
-              <img src={googleImage} alt="" className="image my-4" />
+              <img src={country} alt="" className="image my-4" />
             </div>
             <div className=" py-md-5 project__details ">
               <div>
                 <h3>
-                  <span>Google__</span>
+                  <span>Country__</span>
                   <br />
 
-                  <span>Clone</span>
+                  <span>App</span>
                 </h3>
                 <div className="project__desc">
                   <p>
@@ -90,12 +100,12 @@ const Works = () => {
             data-aos="fade-right"
           >
             <div className=" align-self-center ">
-              <img src={googleImage} alt="" className="image my-4" />
+              <img src={youtube} alt="" className="image my-4" />
             </div>
             <div className=" py-md-5 project__details ">
               <div>
                 <h3>
-                  <span>Google__</span>
+                  <span>Youtube__</span>
                   <br />
 
                   <span>Clone</span>
@@ -123,12 +133,45 @@ const Works = () => {
             data-aos="fade-left"
           >
             <div className=" align-self-center ">
-              <img src={googleImage} alt="" className="image my-4" />
+              <img src={newstoday} alt="" className="image my-4" />
             </div>
             <div className=" py-md-5 project__details ">
               <div>
                 <h3>
-                  <span>Google__</span>
+                  <span>News__</span>
+                  <br />
+
+                  <span>Today</span>
+                </h3>
+                <div className="project__desc">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Dicta repellendus deserunt rem quo, magnam recusandae dolor
+                    minima odit iusto ipsum sapiente illo dolorem consequatur
+                    earum nobis magni voluptates accusantium! Hic?
+                  </p>
+                  <div className="line my-3 my-md-2"></div>
+                  <div>React, firebase, MongoDb</div>
+                  <div className="my-3">
+                    <Icon.ExternalLink className="iconStyle mr-3" />
+                    <Icon.GitHub className="iconStyle mr-3" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* ends here */}
+            <div
+            className="d-flex flex-column flex-md-row mr-auto max-fit projectCard  "
+            data-aos="fade-right"
+          >
+            <div className=" align-self-center ">
+              <img src={netflix} alt="" className="image my-4" />
+            </div>
+            <div className=" py-md-5 project__details ">
+              <div>
+                <h3>
+                  <span>Netflix__</span>
                   <br />
 
                   <span>Clone</span>

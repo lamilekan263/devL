@@ -11,8 +11,9 @@ const Header = () => {
               <p>Web & Mobile developer</p>
             </div>
             <div className="header__Link">
+              <p>Resume</p>
               <p>Work</p>
-              <p>Contact Me</p>
+              <p>Contact</p>
             </div>
           </div>
         </div>

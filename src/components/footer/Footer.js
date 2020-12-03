@@ -1,10 +1,12 @@
 import React from 'react'
 
+
 const Footer = () => {
+    
     return (
-      <div className="footer my-5">
+      <div className="footer my-5" >
         <div className="container">
-          <div className="footer__data d-flex flex-sm-column justify-content-between">
+          <div className="footer__data d-flex flex-sm-column flex-md-row justify-content-between">
             <div>© Olalekan Ibrahim 2020</div>
             <div className="links">
               <a
