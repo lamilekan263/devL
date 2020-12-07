@@ -21,9 +21,12 @@ const About = () => {
                 <span>Developer</span>
               </h2>
             </div>
-            <div className ="my-5">
-              <h1>About Me</h1>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto blanditiis voluptas eum cupiditate quod, iste dignissimos totam laudantium tenetur aliquid beatae, consequuntur necessitatibus reiciendis, dolore doloremque excepturi consequatur natus voluptatibus.
+            <div className="my-5">
+              <h1>About Me</h1>I am a Nigerian (🇳🇬) based Web and Mobile App
+              Developer who has in the last couple of years been crafting
+              awesomeness with my skills.
+              Developing intuitive user interfaces
+              for a snappy web & mobile experience.
             </div>
           </div>
         </div>

@@ -21,7 +21,7 @@ const Works = () => {
   }, [])
     return (
       <div className="project">
-        <div className="container">
+        <div className="container" id="work">
           <h1>
             <span>Selected_</span>
             <br />
@@ -46,10 +46,7 @@ const Works = () => {
                 </h3>
                 <div className="project__desc">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Dicta repellendus deserunt rem quo, magnam recusandae dolor
-                    minima odit iusto ipsum sapiente illo dolorem consequatur
-                    earum nobis magni voluptates accusantium! Hic?
+                    A 
                   </p>
                   <div className="line my-3 my-md-2"></div>
                   <div>React, Google Custom API</div>
