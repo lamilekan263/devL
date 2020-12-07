@@ -1,4 +1,5 @@
 import React from 'react'
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import './Header.css'
 
 const Header = () => {
@@ -7,7 +8,7 @@ const Header = () => {
         <div className="container">
           <div className="header__contents">
             <div className="header__brand">
-              <a href="#header">
+              <a href="#header" offset={() => 100}>
                 <h2>DevL.</h2>
                 <p>Web & Mobile developer</p>
               </a>
@@ -20,12 +21,12 @@ const Header = () => {
               >
                 <p>Resume</p>
               </a>
-              <a href="#work">
+              <AnchorLink href="#work" offset={() => 100}>
                 <p>Work</p>
-              </a>
-              <a href="#contact">
+              </AnchorLink>
+              <AnchorLink href="#contact" offset={() => 100}>
                 <p>Contact</p>
-              </a>
+              </AnchorLink>
             </div>
           </div>
         </div>

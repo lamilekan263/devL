@@ -46,10 +46,12 @@ const Works = () => {
                 </h3>
                 <div className="project__desc">
                   <p>
-                    A 
+                    A nice google web search application where users can search
+                    and get back information without having the feelings of not
+                    using the main Google web search engine
                   </p>
                   <div className="line my-3 my-md-2"></div>
-                  <div>React, Google Custom API</div>
+                  <div>React, Google Custom API, Context API</div>
                   <div className="my-3">
                     <a
                       href="https://google-clone-tau.vercel.app/"
@@ -59,7 +61,7 @@ const Works = () => {
                       <Icon.ExternalLink className="iconStyle mr-3" />
                     </a>
                     <a
-                      href="https://netflix-clone-puce.vercel.app/"
+                      href="https://github.com/lamilekan263/google_clone"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -88,13 +90,13 @@ const Works = () => {
                 </h3>
                 <div className="project__desc">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Dicta repellendus deserunt rem quo, magnam recusandae dolor
-                    minima odit iusto ipsum sapiente illo dolorem consequatur
-                    earum nobis magni voluptates accusantium! Hic?
+                    Want to know more about countries in the world?
+                    <br />
+                    Check it out <br />A web app where users can Search for
+                    countries around the Globe and get to know more about them.
                   </p>
                   <div className="line my-3 my-md-2"></div>
-                  <div>React, Rest API, TailwinCss</div>
+                  <div>React, Rest API, TailwinCss, Context API</div>
                   <div className="my-3">
                     <a
                       href="https://countries-theta.vercel.app/"
@@ -104,7 +106,7 @@ const Works = () => {
                       <Icon.ExternalLink className="iconStyle mr-3" />
                     </a>
                     <a
-                      href="https://netflix-clone-puce.vercel.app/"
+                      href="https://github.com/lamilekan263/countries"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -133,10 +135,10 @@ const Works = () => {
                 </h3>
                 <div className="project__desc">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Dicta repellendus deserunt rem quo, magnam recusandae dolor
-                    minima odit iusto ipsum sapiente illo dolorem consequatur
-                    earum nobis magni voluptates accusantium! Hic?
+                    Simple Yotube Application
+                    <br />
+                    where you can search for videos and as well get to stream
+                    videos just like Youtube
                   </p>
                   <div className="line my-3 my-md-2"></div>
                   <div>React, Rest API, Semantic UI </div>
@@ -149,7 +151,7 @@ const Works = () => {
                       <Icon.ExternalLink className="iconStyle mr-3" />
                     </a>
                     <a
-                      href="https://netflix-clone-puce.vercel.app/"
+                      href="https://github.com/lamilekan263/youtube_clone"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -178,13 +180,13 @@ const Works = () => {
                 </h3>
                 <div className="project__desc">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Dicta repellendus deserunt rem quo, magnam recusandae dolor
-                    minima odit iusto ipsum sapiente illo dolorem consequatur
-                    earum nobis magni voluptates accusantium! Hic?
+                    News app built to make users get the latest news Update of
+                    the day so as for them to get updated on the latest trend in
+                    various sectors such as Education, Technology, sports,
+                    business world news and various more
                   </p>
                   <div className="line my-3 my-md-2"></div>
-                  <div>React, GNews API, Chakra UI</div>
+                  <div>React, Redux, GNews API, Chakra UI</div>
                   <div className="my-3">
                     <a
                       href="https://news-app-tau.vercel.app/"
@@ -194,7 +196,7 @@ const Works = () => {
                       <Icon.ExternalLink className="iconStyle mr-3" />
                     </a>
                     <a
-                      href="https://netflix-clone-puce.vercel.app/"
+                      href="https://github.com/lamilekan263/newsApp"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -223,10 +225,9 @@ const Works = () => {
                 </h3>
                 <div className="project__desc">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Dicta repellendus deserunt rem quo, magnam recusandae dolor
-                    minima odit iusto ipsum sapiente illo dolorem consequatur
-                    earum nobis magni voluptates accusantium! Hic?
+                    Just a simple Application to give users the latest movie blockbusters of Netflix
+                      <br />
+                   
                   </p>
                   <div className="line my-3 my-md-2"></div>
                   <div>React. RestAPI</div>
