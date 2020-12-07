@@ -24,9 +24,13 @@ const About = () => {
             <div className="my-5">
               <h1>About Me</h1>I am a Nigerian (🇳🇬) based Web and Mobile App
               Developer who has in the last couple of years been crafting
-              awesomeness with my skills.
-              Developing intuitive user interfaces
+              awesomeness with my skills. Developing intuitive user interfaces
               for a snappy web & mobile experience.
+              <br />
+              <strong className="my-5">
+                Lastly, i'm also doing and learning things with microsoft as a
+                Microsoft student Learn Ambassador.🤫😋🥰
+              </strong>
             </div>
           </div>
         </div>
