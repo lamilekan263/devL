@@ -4,9 +4,9 @@
     margin:20vh auto;
 }
 .contactPage h1{
-    font-size: 4rem;
+    font-size: 3rem;
     color: white;
-    font-weight:700;
+    font-weight:400;
     line-height: 1;
 }
 .contactPage a{
@@ -31,13 +31,20 @@
     
     background-color: white;
 }
+#con{
+        font-weight: 700;
+    }
+
 
 @media(min-width:760px){
     .contactPage h1{
         
     color: white;
-    font-weight:700;
+    font-weight:400;
     line-height: 1;
-    font-size:120px;
-}
+    font-size:80px;
+    }
+    #con{
+        font-weight: 700;
+    }
 }

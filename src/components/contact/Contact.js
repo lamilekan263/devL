@@ -5,6 +5,7 @@ const Contact = () => {
     return (
       <div className="contactPage my-5" id="contact">
         <div className="container">
+          <h1 id="con">Contact ME!</h1>
           <h1>
             <span>I'm always</span>
             <br />
