@@ -11,7 +11,7 @@ import google from "../../assets/google.jpg";
 import netflix from "../../assets/netflix.jpg";
 import youtube from "../../assets/youtube.jpg";
 import newstoday from "../../assets/newstoday.jpg"
-
+import BuyNow from "../../assets/buyNow.jpg";
 
 import './Projects.css'
 
@@ -29,6 +29,50 @@ const Works = () => {
           </h1>
           {/* card component */}
           {/* first card */}
+          <div
+            className="d-flex flex-column flex-md-row-reverse ml-auto max-fit projectCard "
+            data-aos="fade-left"
+          >
+            <div className=" align-self-center ">
+              <img src={BuyNow} alt="" className="image my-4 " />
+            </div>
+            <div className=" py-md-5 project__details ">
+              <div>
+                <h3>
+                  <span>BuyNow__</span>
+                  <br />
+
+                  <span>Fashion Store</span>
+                </h3>
+                <div className="project__desc">
+                  <p>
+                    A fashion E-commerce website built from the inspiration of
+                    MODNIKKY fashion UI design
+                  </p>
+                  <div className="line my-3 my-md-2"></div>
+                  <div>React, Redux, Firebase Auth, Bootstrap</div>
+                  <div className="my-3">
+                    <a
+                      href="https://google-clone-tau.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Icon.ExternalLink className="iconStyle mr-3" />
+                    </a>
+                    <a
+                      href="https://github.com/lamilekan263/buyNow"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Icon.GitHub className="iconStyle mr-3" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* first card ends here */}
+          {/* second card */}
           <div
             className="d-flex flex-column flex-md-row mr-auto max-fit projectCard  "
             data-aos="fade-right"
@@ -72,7 +116,7 @@ const Works = () => {
               </div>
             </div>
           </div>
-          {/* first card ends here */}
+          {/* second card ends here */}
           <div
             className="d-flex flex-column flex-md-row-reverse ml-auto max-fit projectCard "
             data-aos="fade-left"
@@ -225,9 +269,9 @@ const Works = () => {
                 </h3>
                 <div className="project__desc">
                   <p>
-                    Just a simple Application to give users the latest movie blockbusters of Netflix
-                      <br />
-                   
+                    Just a simple Application to give users the latest movie
+                    blockbusters of Netflix
+                    <br />
                   </p>
                   <div className="line my-3 my-md-2"></div>
                   <div>React. RestAPI</div>
