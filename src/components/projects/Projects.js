@@ -8,6 +8,7 @@ import netflix from "../../assets/netflix.jpg";
 import youtube from "../../assets/youtube.jpg";
 import newstoday from "../../assets/newstoday.jpg";
 import BuyNow from "../../assets/buyNow.jpg";
+import Fmc from "../../assets/fmc.jpg";
 
 import "./Projects.css";
 
@@ -24,6 +25,50 @@ const Works = () => {
           <span>Works:</span>
         </h1>
         {/* card component */}
+        <div
+          className="d-flex flex-column flex-md-row mr-auto max-fit projectCard "
+          data-aos="fade-right"
+        >
+          <div className=" align-self-center ">
+            <img src={Fmc} alt="" className="image my-4 " />
+          </div>
+          <div className=" py-md-5 project__details ">
+            <div>
+              <h3>
+                <span>Federal Medical Library__</span>
+                <br />
+
+                <span>FMC</span>
+              </h3>
+              <div className="project__desc">
+                <p>
+                  An online library management system where users can register
+                  and get a library card that can be printed, borrow books,Make
+                  a reservation for a book that's not available and lots more
+                  ...
+                </p>
+                <div className="line my-3 my-md-2"></div>
+                <div>React, Redux, Tailwind Css</div>
+                <div className="my-3">
+                  <a
+                    href="http://fmc-library-client-app.herokuapp.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Icon.ExternalLink className="iconStyle mr-3" />
+                  </a>
+                  <a
+                    href="https://github.com/lamilekan263/fmc-deployed"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Icon.GitHub className="iconStyle mr-3" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* first card */}
         <div
           className="d-flex flex-column flex-md-row-reverse ml-auto max-fit projectCard "
